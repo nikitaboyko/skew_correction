@@ -2,10 +2,13 @@
 De-skewing images with slanted content by finding the deviation using Canny Edge Detection.
 
 To Run:
--  In python 3.6
+-  In python 3.6,
 
 from deskew import Deskew
-deskew = Deskew(input_file_path='path-to-input-image',display_image=True,output_file_path='path-to-output-image',rot_angle = 0)
+deskew = Deskew(input_file_path='path-to-input-image',
+                display_image=True,
+                output_file_path='path-to-output-image',
+                rot_angle = 0)
 deskew.run()
 
 - config.json
