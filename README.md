@@ -12,8 +12,7 @@ deskew = Deskew(input_file_path='path-to-input-image',
                 rot_angle = 0)
 deskew.run()
 
-- config.json
-  
+- In config.json,
   toggle debug key between 1/0 to print the following details:
     
     Image File
