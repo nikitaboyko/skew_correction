@@ -41,13 +41,7 @@ class detect_skew:
 
     def most_freq_elements(self, arr):
 
-        max_arr = []
-        freqs = {}
-        for i in arr:
-            if i in freqs:
-                freqs[i] += 1
-            else:
-                freqs[i] = 1
+        freqs = {(i):(freqs[i]+1 if i in freqs else 1) for i in arr}
 
         sorted_keys = sorted(freqs, key=freqs.get, reverse=True)
         max_freq = freqs[sorted_keys[0]]
