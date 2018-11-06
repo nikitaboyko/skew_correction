@@ -3,7 +3,6 @@ from skimage import io
 import optparse,json
 import numpy as np
 import matplotlib.pyplot as plt
-# from skew_detect import SkewDetect
 from skimage import io
 from skimage.transform import rotate
 
