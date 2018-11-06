@@ -46,9 +46,6 @@ class detect_skew:
         sorted_keys = sorted(freqs, key=freqs.get, reverse=True)
         max_freq = freqs[sorted_keys[0]]
 
-        # for k in sorted_keys:
-        #     if freqs[k] == max_freq:
-        #         max_arr.append(k)
         max_arr = [k for k in sorted_keys if freqs[k] == max_freq]
 
         return max_arr
