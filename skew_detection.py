@@ -40,7 +40,7 @@ class detect_skew:
         wfile.write('\n')
 
     def most_freq_elements(self, arr):
-
+        freqs = {}
         freqs = {(i):(freqs[i]+1 if i in freqs else 1) for i in arr}
 
         sorted_keys = sorted(freqs, key=freqs.get, reverse=True)
