@@ -10,6 +10,7 @@ deskew = Deskew(input_file_path='path-to-input-image',
                 display_image=True,
                 output_file_path='path-to-output-image',
                 rot_angle = 0)
+
 deskew.run()
 
 - In config.json,
